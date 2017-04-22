@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.example.saku1.benseronemv.Activity.LoginPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:id="@+id/loginpage_title"
+            android:src="@drawable/bevo_logo"/>
+
+        <TextView
+            android:id="@+id/loginpage_password_field"
+            android:inputType="numberPassword"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:background="#eeeeee"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/loginpage_number_one"
+            style="@style/Widget.AppCompat.Button"
+            android:background="@drawable/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/number_one"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/loginpage_number_two"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape"
+            android:text="@string/number_two"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/loginpage_number_three"
+            style="@style/Widget.AppCompat.Button"
+            android:background="@drawable/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/number_three"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/loginpage_number_four"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:text="@string/number_four" />
+
+        <Button
+            android:id="@+id/loginpage_number_five"
+            style="@style/Widget.AppCompat.Button"
+            android:background="@drawable/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/number_five"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/loginpage_number_six"
+            style="@style/Widget.AppCompat.Button"
+            android:background="@drawable/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/number_six"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/loginpage_number_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:text="@string/number_seven" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/loginpage_number_eight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:text="@string/number_eight" />
+
+        <Button
+            android:id="@+id/loginpage_number_nine"
+            style="@style/Widget.AppCompat.Button"
+            android:background="@drawable/shape"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/number_nine"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/loginpage_clearbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_clear"
+            android:layout_weight="1"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/loginpage_number_zero"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape"
+            android:text="@string/number_zero"
+            android:layout_weight="1"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/loginpage_loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_shape"
+            android:text="@string/Login"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9d7e1d6"
+    android:orientation="vertical"
+    tools:context="com.example.saku1.benseronemv.Activity.SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:weightSum="4"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/second_activity_table_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Table Name"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/second_activity_check_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Check Number"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/second_activity_amount_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Amount"
+        android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/second_pay_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="PAY" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
